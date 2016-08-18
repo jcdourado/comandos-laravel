@@ -34,7 +34,8 @@ php artisan db:seed
 ```bash
 php artisan tinker
 ```
-* Exemplo do uso de tinker
+###Exemplo do uso de tinker
+* Retorna todos os dados do banco da tabela Nomes
 ```bash
  App\Models\Nome::all();
 ```
