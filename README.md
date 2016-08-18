@@ -20,4 +20,12 @@ php artisan make:migration create_nomes_table --create=nomes
 ```bash
 php artisan make:model Nome
 ```
-##Seeders 
+##Seeders
+* Para criar clase de seeders
+```bash
+php artisan make:seed Nome
+```
+* Para criar seeders e adicionar no banco
+```bash
+php artisan db:seed 
+```
