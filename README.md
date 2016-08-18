@@ -6,7 +6,7 @@
 php artisan app:name nome_namespace
 ```
 ##Migrate
-* Comando para criar adicionar as migration no banco
+* Comando para adicionar as migration no banco
 ```bash
 php artisan migrate
 ```
