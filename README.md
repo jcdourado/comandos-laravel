@@ -25,9 +25,13 @@ php artisan make:model Nome
 ```bash
 php artisan make:seed Nome
 ```
-* Para criar seeders e adicionar no banco
+* Para criar seeders e adicionar no banco seeders novamente
 ```bash
 php artisan db:seed
+```
+* Para dar um refresh no banco e criar as
+```bash
+php artisan migrate:refresh --seed
 ```
 ##Tinker
 * Para iniciar o tinker
