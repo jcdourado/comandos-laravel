@@ -1,8 +1,6 @@
 #Comandos
 
 ## Mudar namespace
-´´´bash
-
+```bash
 php artisan app:name nome_namespace
-
-´´´
+```
