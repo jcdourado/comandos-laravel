@@ -15,8 +15,9 @@ php artisan migrate
 ```bash
 php artisan make:migration create_nomes_table --create=nomes
 ```
-#Model
+##Model
 * Para criar o Model
 ```bash
 php artisan make:model Nome
 ```
+##Seeders 
