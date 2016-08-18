@@ -34,3 +34,7 @@ php artisan db:seed
 ```bash
 php artisan tinker
 ```
+* Exemplo do uso de tinker
+```bash
+ App\Models\Nome::all();
+```
