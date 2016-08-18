@@ -27,5 +27,10 @@ php artisan make:seed Nome
 ```
 * Para criar seeders e adicionar no banco
 ```bash
-php artisan db:seed 
+php artisan db:seed
+```
+##Tinker
+* Para iniciar o tinker
+```bash
+php artisan tinker
 ```
