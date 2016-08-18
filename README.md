@@ -1,6 +1,7 @@
 #Comandos Laravel
 
 ##Namespace
+* Para mudar o nome do namespace
 ```bash
 php artisan app:name nome_namespace
 ```
@@ -10,7 +11,12 @@ php artisan app:name nome_namespace
 php artisan migrate
 ```
 * Comando para criar as migrate
-* Obs: Criar sempre o nome da migrate no plural igual no exemplo (nomes) 
+* Obs: Criar sempre o nome da migrate no plural igual no exemplo (nomes)
 ```bash
-php artisan make:migration create_nomes_table
+php artisan make:migration create_nomes_table --create=nomes
+```
+#Model
+* Para criar o Model
+```bash
+php artisan make:model Nome
 ```
