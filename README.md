@@ -1,5 +1,10 @@
 #Comandos Laravel
 
+##Servindo a aplicação
+* Para servir a aplicação (estará disponível no localhost:4000)
+```bash
+php artisan serve
+```
 ##Namespace
 * Para mudar o nome do namespace
 ```bash
@@ -15,10 +20,24 @@ php artisan migrate
 ```bash
 php artisan make:migration create_nomes_table --create=nomes
 ```
+* Para dar rollback
+```bash
+php artisan migrate:rollback 
+```
 ##Model
 * Para criar o Model
 ```bash
 php artisan make:model Nome
+```
+##Controller
+* Para criar o Controller
+```bash
+php artisan make:controller Nome
+```
+##Request
+* Para criar um Request (para validações de formulários)
+```bash
+php artisan make:request Nome
 ```
 ##Seeders
 * Para criar clase de seeders
